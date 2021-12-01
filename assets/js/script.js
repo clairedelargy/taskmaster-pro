@@ -81,7 +81,6 @@ $("#task-form-modal .btn-primary").click(function() {
     saveTasks();
   }
 });
-
 // task text was clicked
 $(".list-group").on("click", "p", function() {
   // get current text of p element
